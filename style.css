@@ -1,3 +1,30 @@
+@media screen and (min-width: 790px) {
+  header{
+    display: none;
+  }
+  .league-table{
+    display: none;
+  }
+  .fixtures-container{
+    display: none;
+  }
+  .results-container{
+    display: none;
+  }
+  .pc{
+    margin-top: 25%;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .pc svg{
+    width: 50px;
+    height: 50px;
+  }
+}
 @media screen and (max-width: 768px) {
   /* styles for screens that are 768px wide or less, such as tablets and mobile phones */
   html {
@@ -5,8 +32,11 @@
   width: 100%;
   font-family: "Lato", sans-serif;
 }
+.pc{
+  display: none;
+}
 .contact-container {
-        border: 1px solid #ddd;
+        border: 2px solid #ddd;
         border-radius: 5px;
         padding: 10px;
         margin-bottom: 10px;
@@ -27,6 +57,7 @@
         font-size: 14px;
         margin-bottom: 2px;
       }
+
 .active {
   background-color: dimgrey;
   
@@ -98,10 +129,11 @@ nav li {
   align-items: center;
   justify-content: space-between;
   width: 90%;
+  
   max-width: 800px;
-  margin: 10px 0;
+  margin: 5px 0;
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -113,22 +145,21 @@ nav li {
 .home-team,
 .away-team {
   display: flex;
+  font-size: 15px;
   flex-direction: column;
   align-items: center;
 }
 
-.home-team img,
-.away-team img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-  margin-bottom: 5px;
-}
-
 .scoreline-or-kickoff {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   padding: 0 10px;
+  display: flex;
+  word-spacing: 3px;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
