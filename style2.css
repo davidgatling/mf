@@ -1,4 +1,4 @@
-media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* styles for screens that are 768px wide or less, such as tablets and mobile phones */
   html {
   height: 100%;
