@@ -3,9 +3,171 @@
   <head>
     <meta charset="UTF-8">
     <title>Members information</title>
-    <link rel="stylesheet" href="style.css" />
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="style2.css"/>
+    <style>
+    @media screen and (max-width: 768px) {
+  /* styles for screens that are 768px wide or less, such as tablets and mobile phones */
+  html {
+  height: 100%;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+.contact-container {
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+
+      .name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      #xyz{
+        margin-bottom: 10px;
+      }
+      .uid,
+      .in-game-name,
+      .whatsapp-contact {
+        font-size: 14px;
+        margin-bottom: 2px;
+      }
+
+.active {
+  background-color: dimgrey;
+  
+}
+header {
+  background-color: #333;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header-container {
+  margin: 0 auto;
+  text-align: center;
+  
+  flex-direction: column;
+  line-height: 1.5;
+}
+.website-name{
+  margin-top: 10px;
+  
+}
+.website-name a {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header br{
+  margin: 0;
+  
+}
+
+
+nav a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  
+}
+nav{
+  height: 50px;
+  
+}
+nav li {
+  margin: 0 0px;
+  padding: 8px;
+}
+
+.fixtures-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fixture {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 800px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.match-date-time {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.home-team,
+.away-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-team img,
+.away-team img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.scoreline-or-kickoff {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+
+.league-table {
+  padding: 20px;
+}
+
+.league-table h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+}
+
+    </style>
   </head>
   <body>
     <header>
@@ -26,7 +188,7 @@
   </div>
 </header>
 
-
+<div class="all">
     <div class="contact-container">
       <div class="name">Death</div>
       <div class="uid">UID: 2888380591</div>
@@ -213,6 +375,6 @@
   <div class="in-game-name">In-Game Name: Kameiliongrey</div>
   <div class="whatsapp-contact">WhatsApp Contact: @kameiliongrey</div>
 </div>
-
+</div>
   </body>
 </html>
