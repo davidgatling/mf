@@ -24,6 +24,9 @@
     width: 50px;
     height: 50px;
   }
+  .rules{
+    display: none;
+  }
 }
 @media screen and (max-width: 768px) {
   /* styles for screens that are 768px wide or less, such as tablets and mobile phones */
@@ -187,4 +190,46 @@ th {
   font-weight: bold;
 }
 
+.tabler{
+  margin-top: 10px;
+}
+.tabler h2{
+  margin-bottom: -10px;
+}
+
+.rules{
+  margin-bottom: 20px;
+}
+.ruleheader{
+  text-align: center;
+}
+.rules {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  text-overflow: clip;
+  padding: 10px;
+}
+hr{
+  display: none;
+}
+.rules ul {
+  list-style-type: disc;
+  margin: 0 0 10px 20px;
+  padding: 0;
+  
+}
+
+.rules li {
+  margin-bottom: 8px;
+  
+}
+
+.mapid{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.mapid p{
+  overflow: fade;
+}
 }
