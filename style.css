@@ -2,6 +2,40 @@
   header{
     display: none;
   }
+
+  .league-table{
+    display: none;
+  }
+  .fixtures-container{
+    display: none;
+  }
+  .results-container{
+    display: none;
+  }
+  .pc{
+    margin-top: 25%;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .pc svg{
+    width: 50px;
+    height: 50px;
+  }
+  .rules{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* styles for screens that are 768px wide or less, such as tablets and mobile phones */
+  html {
+  height: 100%;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
 /* The toast message CSS */
 #toast {
   visibility: hidden;
@@ -44,39 +78,6 @@
   to {bottom: 0; opacity: 0;}
 }
 
-  .league-table{
-    display: none;
-  }
-  .fixtures-container{
-    display: none;
-  }
-  .results-container{
-    display: none;
-  }
-  .pc{
-    margin-top: 25%;
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .pc svg{
-    width: 50px;
-    height: 50px;
-  }
-  .rules{
-    display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* styles for screens that are 768px wide or less, such as tablets and mobile phones */
-  html {
-  height: 100%;
-  width: 100%;
-  font-family: "Lato", sans-serif;
-}
 .footer{
   height: 30px;
   text-align: center;
