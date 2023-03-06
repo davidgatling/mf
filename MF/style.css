@@ -1,0 +1,343 @@
+@media screen and (min-width: 790px) {
+  header{
+    display: none;
+  }
+ hr{
+  display: none;
+ }
+  .league-table{
+    display: none;
+  }
+  .fixtures-container{
+    display: none;
+  }
+  .results-container{
+    display: none;
+  }
+  .footer{
+  height: 30px;
+  text-align: center;
+  margin-top: 20%;
+}
+#toast{
+display: none;
+}
+  .pc{
+    margin-top: 20%;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .pc svg{
+    width: 50px;
+    height: 50px;
+  }
+  .rules{
+    display: none;
+  }
+  html {
+  height: 100%;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+}
+@media screen and (max-width: 768px) {
+  /* styles for screens that are 768px wide or less, such as tablets and mobile phones */
+  html {
+  height: 100%;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+.footer{
+  height: 30px;
+  text-align: center;
+  margin-top: 15px;
+}
+.pc{
+  display: none;
+}
+.contact-container {
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+
+      .name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      #xyz{
+        margin-bottom: 10px;
+      }
+      .uid,
+      .in-game-name,
+      .whatsapp-contact {
+        font-size: 14px;
+        margin-bottom: 2px;
+      }
+
+.active {
+  background-color: dimgrey;
+  
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header-container {
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.website-name {
+  margin-top: 10px;
+}
+
+.website-name a {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+}
+
+nav {
+  height: 50px;
+}
+
+nav li {
+  margin: 0 0px;
+  padding: 8px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header-container {
+  margin: 0 auto;
+  text-align: center;
+  
+  flex-direction: column;
+  line-height: 1.5;
+}
+.website-name{
+  margin-top: 10px;
+  
+}
+.website-name a {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header br{
+  margin: 0;
+  
+}
+
+
+nav a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  
+}
+nav{
+  height: 50px;
+  
+}
+nav li {
+  margin: 0 0px;
+  padding: 8px;
+}
+
+.fixtures-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fixture {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  
+  max-width: 800px;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.match-date-time {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.home-team,
+.away-team {
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scoreline-or-kickoff {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 10px;
+  display: flex;
+  word-spacing: 3px;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.league-table {
+  padding: 20px;
+}
+
+.league-table h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.tabler{
+  margin-top: 10px;
+}
+.tabler h2{
+  margin-bottom: -10px;
+}
+
+.rules{
+  margin-bottom: 20px;
+}
+.ruleheader{
+  text-align: center;
+}
+.rules {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  text-overflow: clip;
+  padding: 10px;
+}
+hr{
+  display: none;
+}
+.rules ul {
+  list-style-type: disc;
+  margin: 0 0 10px 20px;
+  padding: 0;
+  
+}
+
+.rules li {
+  margin-bottom: 8px;
+  
+}
+
+.mapid{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.mapid p{
+  overflow: fade;
+}
+
+.fixtures-container h5{
+  text-align: center;
+  margin-top: -10px;
+}
+.profile-container {
+  
+  max-width: 800px;
+  padding: 20px;
+}
+
+.profile-container img {
+  margin-left: -13px;
+  width: 110%;
+  height: 150px;
+}
+
+.profile-container h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.profile-container h4 {
+  margin-top: 20px;
+}
+
+.profile-container li {
+  list-style: none;
+  margin-bottom: 5px;
+  padding: 10px;
+  margin-left: -50px;
+}
+
+
+
+}
